@@ -1,19 +1,15 @@
 // document meetodid
 // single element selector
 
-sisu = document.getElementById('title'); // hmtl sisu
-id = document.getElementById('title').id; // id sisu
-klass = document.getElementById('title').className;
+sisu = document.querySelector('#title'); // id järgi
+sisu = document.querySelector('.card-title'); // klassi järgi
+sisu = document.querySelector('h5'); // elemendi järgi
 
-// sisu.style.background ='#333';
-document.getElementById('title').style.background = '#333';
-sisu.style.color = '#fff';
-sisu.style.padding = '5px';
-// sisu.style.display = 'none';
+// stiili muutmine
 
-// sisu muutmine
-sisu.textContent = 'Minu ülesandend';
-sisu.innerText = 'Just minu ülesanne';
-sisu.innerHTML = '<span style="color:green">Vabad ülesanded</span>';
+document.querySelector('li').style.color = 'red';
+document.querySelector('ul li').style.color = 'blue';
+document.querySelector('li:last-child').style.color = 'green';
+document.querySelector('li:nth-child(2)').style.color = 'orange';
 
 console.log(sisu);
