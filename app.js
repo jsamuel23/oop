@@ -30,4 +30,8 @@ sisu = document.links[0]; // esimene link
 sisu = document.links[0].className; // lingi klass
 sisu = document.links[0].classList[1]; // klasside massiiv ja sealt elemendi lugemine
 
+
+// pildid
+sisu = document.images;
+
 console.log(sisu);
