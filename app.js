@@ -23,4 +23,11 @@ sisu = document.forms[0].id; // esimese vormi id
 sisu = document.forms[0].method; // vormi töötlus meetod
 sisu = document.forms[0].action;
 
+
+// linkide andmed
+sisu = document.links; // kõik lingid
+sisu = document.links[0]; // esimene link
+sisu = document.links[0].className; // lingi klass
+sisu = document.links[0].classList[1]; // klasside massiiv ja sealt elemendi lugemine
+
 console.log(sisu);
